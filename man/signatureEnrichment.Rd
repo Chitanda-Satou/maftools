@@ -4,8 +4,7 @@
 \alias{signatureEnrichment}
 \title{Performs sample stratification based on signature contribution and enrichment analysis.}
 \usage{
-signatureEnrichment(maf, sig_res, minMut = 5, useCNV = FALSE,
-  fn = NULL)
+signatureEnrichment(maf, sig_res, minMut = 5, useCNV = FALSE, fn = NULL)
 }
 \arguments{
 \item{maf}{an \code{\link{MAF}} object used for signature analysis.}
@@ -25,5 +24,5 @@ result list containing p-values
 Performs k-means clustering to assign signature to samples and performs enrichment analysis.
 }
 \seealso{
-\code{\link{plotEnrichmentResults}} \code{\link{plotCopheneticMetric}}
+\code{\link{plotEnrichmentResults}}
 }
